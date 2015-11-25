@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426EBF011C05C94E00E30D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF001C05C94E00E30D2D /* main.m */; };
+		426EBF041C05C94E00E30D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF031C05C94E00E30D2D /* AppDelegate.m */; };
+		426EBF071C05C94E00E30D2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF061C05C94E00E30D2D /* ViewController.m */; };
+		426EBF0A1C05C94E00E30D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF081C05C94E00E30D2D /* Main.storyboard */; };
+		426EBF0C1C05C94E00E30D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF0B1C05C94E00E30D2D /* Assets.xcassets */; };
+		426EBF0F1C05C94E00E30D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF0D1C05C94E00E30D2D /* LaunchScreen.storyboard */; };
+		426EBF1A1C05C94E00E30D2D /* LiguaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF191C05C94E00E30D2D /* LiguaTests.m */; };
+		426EBF251C05C94E00E30D2D /* LiguaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF241C05C94E00E30D2D /* LiguaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426EBF161C05C94E00E30D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426EBEF41C05C94E00E30D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426EBEFB1C05C94E00E30D2D;
+			remoteInfo = Ligua;
+		};
+		426EBF211C05C94E00E30D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426EBEF41C05C94E00E30D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426EBEFB1C05C94E00E30D2D;
+			remoteInfo = Ligua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426EBEFC1C05C94E00E30D2D /* Ligua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ligua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426EBF001C05C94E00E30D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426EBF021C05C94E00E30D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		426EBF031C05C94E00E30D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		426EBF051C05C94E00E30D2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		426EBF061C05C94E00E30D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		426EBF091C05C94E00E30D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426EBF0B1C05C94E00E30D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426EBF0E1C05C94E00E30D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426EBF101C05C94E00E30D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426EBF151C05C94E00E30D2D /* LiguaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426EBF191C05C94E00E30D2D /* LiguaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiguaTests.m; sourceTree = "<group>"; };
+		426EBF1B1C05C94E00E30D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426EBF201C05C94E00E30D2D /* LiguaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426EBF241C05C94E00E30D2D /* LiguaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiguaUITests.m; sourceTree = "<group>"; };
+		426EBF261C05C94E00E30D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426EBEF91C05C94E00E30D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EBF121C05C94E00E30D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EBF1D1C05C94E00E30D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426EBEF31C05C94E00E30D2D = {
+			isa = PBXGroup;
+			children = (
+				426EBEFE1C05C94E00E30D2D /* Ligua */,
+				426EBF181C05C94E00E30D2D /* LiguaTests */,
+				426EBF231C05C94E00E30D2D /* LiguaUITests */,
+				426EBEFD1C05C94E00E30D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		426EBEFD1C05C94E00E30D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426EBEFC1C05C94E00E30D2D /* Ligua.app */,
+				426EBF151C05C94E00E30D2D /* LiguaTests.xctest */,
+				426EBF201C05C94E00E30D2D /* LiguaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426EBEFE1C05C94E00E30D2D /* Ligua */ = {
+			isa = PBXGroup;
+			children = (
+				426EBF021C05C94E00E30D2D /* AppDelegate.h */,
+				426EBF031C05C94E00E30D2D /* AppDelegate.m */,
+				426EBF051C05C94E00E30D2D /* ViewController.h */,
+				426EBF061C05C94E00E30D2D /* ViewController.m */,
+				426EBF081C05C94E00E30D2D /* Main.storyboard */,
+				426EBF0B1C05C94E00E30D2D /* Assets.xcassets */,
+				426EBF0D1C05C94E00E30D2D /* LaunchScreen.storyboard */,
+				426EBF101C05C94E00E30D2D /* Info.plist */,
+				426EBEFF1C05C94E00E30D2D /* Supporting Files */,
+			);
+			path = Ligua;
+			sourceTree = "<group>";
+		};
+		426EBEFF1C05C94E00E30D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426EBF001C05C94E00E30D2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426EBF181C05C94E00E30D2D /* LiguaTests */ = {
+			isa = PBXGroup;
+			children = (
+				426EBF191C05C94E00E30D2D /* LiguaTests.m */,
+				426EBF1B1C05C94E00E30D2D /* Info.plist */,
+			);
+			path = LiguaTests;
+			sourceTree = "<group>";
+		};
+		426EBF231C05C94E00E30D2D /* LiguaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				426EBF241C05C94E00E30D2D /* LiguaUITests.m */,
+				426EBF261C05C94E00E30D2D /* Info.plist */,
+			);
+			path = LiguaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426EBEFB1C05C94E00E30D2D /* Ligua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426EBF291C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "Ligua" */;
+			buildPhases = (
+				426EBEF81C05C94E00E30D2D /* Sources */,
+				426EBEF91C05C94E00E30D2D /* Frameworks */,
+				426EBEFA1C05C94E00E30D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ligua;
+			productName = Ligua;
+			productReference = 426EBEFC1C05C94E00E30D2D /* Ligua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426EBF141C05C94E00E30D2D /* LiguaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426EBF2C1C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "LiguaTests" */;
+			buildPhases = (
+				426EBF111C05C94E00E30D2D /* Sources */,
+				426EBF121C05C94E00E30D2D /* Frameworks */,
+				426EBF131C05C94E00E30D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426EBF171C05C94E00E30D2D /* PBXTargetDependency */,
+			);
+			name = LiguaTests;
+			productName = LiguaTests;
+			productReference = 426EBF151C05C94E00E30D2D /* LiguaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426EBF1F1C05C94E00E30D2D /* LiguaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426EBF2F1C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "LiguaUITests" */;
+			buildPhases = (
+				426EBF1C1C05C94E00E30D2D /* Sources */,
+				426EBF1D1C05C94E00E30D2D /* Frameworks */,
+				426EBF1E1C05C94E00E30D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426EBF221C05C94E00E30D2D /* PBXTargetDependency */,
+			);
+			name = LiguaUITests;
+			productName = LiguaUITests;
+			productReference = 426EBF201C05C94E00E30D2D /* LiguaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426EBEF41C05C94E00E30D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Francesco Zanoli";
+				TargetAttributes = {
+					426EBEFB1C05C94E00E30D2D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					426EBF141C05C94E00E30D2D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 426EBEFB1C05C94E00E30D2D;
+					};
+					426EBF1F1C05C94E00E30D2D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 426EBEFB1C05C94E00E30D2D;
+					};
+				};
+			};
+			buildConfigurationList = 426EBEF71C05C94E00E30D2D /* Build configuration list for PBXProject "Ligua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426EBEF31C05C94E00E30D2D;
+			productRefGroup = 426EBEFD1C05C94E00E30D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426EBEFB1C05C94E00E30D2D /* Ligua */,
+				426EBF141C05C94E00E30D2D /* LiguaTests */,
+				426EBF1F1C05C94E00E30D2D /* LiguaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426EBEFA1C05C94E00E30D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426EBF0F1C05C94E00E30D2D /* LaunchScreen.storyboard in Resources */,
+				426EBF0C1C05C94E00E30D2D /* Assets.xcassets in Resources */,
+				426EBF0A1C05C94E00E30D2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EBF131C05C94E00E30D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EBF1E1C05C94E00E30D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426EBEF81C05C94E00E30D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426EBF071C05C94E00E30D2D /* ViewController.m in Sources */,
+				426EBF041C05C94E00E30D2D /* AppDelegate.m in Sources */,
+				426EBF011C05C94E00E30D2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EBF111C05C94E00E30D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426EBF1A1C05C94E00E30D2D /* LiguaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426EBF1C1C05C94E00E30D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426EBF251C05C94E00E30D2D /* LiguaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426EBF171C05C94E00E30D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426EBEFB1C05C94E00E30D2D /* Ligua */;
+			targetProxy = 426EBF161C05C94E00E30D2D /* PBXContainerItemProxy */;
+		};
+		426EBF221C05C94E00E30D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426EBEFB1C05C94E00E30D2D /* Ligua */;
+			targetProxy = 426EBF211C05C94E00E30D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426EBF081C05C94E00E30D2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426EBF091C05C94E00E30D2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426EBF0D1C05C94E00E30D2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426EBF0E1C05C94E00E30D2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426EBF271C05C94E00E30D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		426EBF281C05C94E00E30D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426EBF2A1C05C94E00E30D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ligua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fallfel.Ligua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		426EBF2B1C05C94E00E30D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ligua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fallfel.Ligua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		426EBF2D1C05C94E00E30D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiguaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fallfel.LiguaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ligua.app/Ligua";
+			};
+			name = Debug;
+		};
+		426EBF2E1C05C94E00E30D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiguaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fallfel.LiguaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ligua.app/Ligua";
+			};
+			name = Release;
+		};
+		426EBF301C05C94E00E30D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiguaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fallfel.LiguaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ligua;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		426EBF311C05C94E00E30D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiguaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fallfel.LiguaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ligua;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426EBEF71C05C94E00E30D2D /* Build configuration list for PBXProject "Ligua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EBF271C05C94E00E30D2D /* Debug */,
+				426EBF281C05C94E00E30D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426EBF291C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "Ligua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EBF2A1C05C94E00E30D2D /* Debug */,
+				426EBF2B1C05C94E00E30D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426EBF2C1C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "LiguaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EBF2D1C05C94E00E30D2D /* Debug */,
+				426EBF2E1C05C94E00E30D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426EBF2F1C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "LiguaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426EBF301C05C94E00E30D2D /* Debug */,
+				426EBF311C05C94E00E30D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426EBEF41C05C94E00E30D2D /* Project object */;
+}
