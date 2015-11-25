@@ -15,6 +15,8 @@
 		426EBF0F1C05C94E00E30D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF0D1C05C94E00E30D2D /* LaunchScreen.storyboard */; };
 		426EBF1A1C05C94E00E30D2D /* LiguaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF191C05C94E00E30D2D /* LiguaTests.m */; };
 		426EBF251C05C94E00E30D2D /* LiguaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF241C05C94E00E30D2D /* LiguaUITests.m */; };
+		426EBF351C05CA3400E30D2D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF341C05CA3400E30D2D /* User.m */; settings = {ASSET_TAGS = (); }; };
+		426EBF381C05CC7100E30D2D /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF371C05CC7100E30D2D /* Group.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		426EBF201C05C94E00E30D2D /* LiguaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426EBF241C05C94E00E30D2D /* LiguaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiguaUITests.m; sourceTree = "<group>"; };
 		426EBF261C05C94E00E30D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426EBF331C05CA3400E30D2D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		426EBF341C05CA3400E30D2D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		426EBF361C05CC7100E30D2D /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		426EBF371C05CC7100E30D2D /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		426EBEF31C05C94E00E30D2D = {
 			isa = PBXGroup;
 			children = (
+				426EBF321C05CA0E00E30D2D /* LiguaDomain */,
 				426EBEFE1C05C94E00E30D2D /* Ligua */,
 				426EBF181C05C94E00E30D2D /* LiguaTests */,
 				426EBF231C05C94E00E30D2D /* LiguaUITests */,
@@ -138,6 +145,17 @@
 				426EBF261C05C94E00E30D2D /* Info.plist */,
 			);
 			path = LiguaUITests;
+			sourceTree = "<group>";
+		};
+		426EBF321C05CA0E00E30D2D /* LiguaDomain */ = {
+			isa = PBXGroup;
+			children = (
+				426EBF331C05CA3400E30D2D /* User.h */,
+				426EBF341C05CA3400E30D2D /* User.m */,
+				426EBF361C05CC7100E30D2D /* Group.h */,
+				426EBF371C05CC7100E30D2D /* Group.m */,
+			);
+			name = LiguaDomain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426EBF351C05CA3400E30D2D /* User.m in Sources */,
 				426EBF071C05C94E00E30D2D /* ViewController.m in Sources */,
+				426EBF381C05CC7100E30D2D /* Group.m in Sources */,
 				426EBF041C05C94E00E30D2D /* AppDelegate.m in Sources */,
 				426EBF011C05C94E00E30D2D /* main.m in Sources */,
 			);
