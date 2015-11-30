@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		426EBF011C05C94E00E30D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF001C05C94E00E30D2D /* main.m */; };
 		426EBF041C05C94E00E30D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF031C05C94E00E30D2D /* AppDelegate.m */; };
-		426EBF071C05C94E00E30D2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF061C05C94E00E30D2D /* ViewController.m */; };
 		426EBF0A1C05C94E00E30D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF081C05C94E00E30D2D /* Main.storyboard */; };
 		426EBF0C1C05C94E00E30D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF0B1C05C94E00E30D2D /* Assets.xcassets */; };
 		426EBF0F1C05C94E00E30D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426EBF0D1C05C94E00E30D2D /* LaunchScreen.storyboard */; };
 		426EBF1A1C05C94E00E30D2D /* LiguaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF191C05C94E00E30D2D /* LiguaTests.m */; };
 		426EBF251C05C94E00E30D2D /* LiguaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF241C05C94E00E30D2D /* LiguaUITests.m */; };
-		426EBF351C05CA3400E30D2D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF341C05CA3400E30D2D /* User.m */; settings = {ASSET_TAGS = (); }; };
-		426EBF381C05CC7100E30D2D /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 426EBF371C05CC7100E30D2D /* Group.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDAE1C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDA91C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDAF1C0B8B93005FD3BA /* JVFloatingDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDAB1C0B8B93005FD3BA /* JVFloatingDrawerView.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDB01C0B8B93005FD3BA /* JVFloatingDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDAD1C0B8B93005FD3BA /* JVFloatingDrawerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDB31C0B9176005FD3BA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDB21C0B9176005FD3BA /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDB61C0B9301005FD3BA /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDB51C0B9301005FD3BA /* EventViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDC01C0BD3CD005FD3BA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDC51C0BDB9F005FD3BA /* ProfileTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDC41C0BDB9F005FD3BA /* ProfileTableCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +45,6 @@
 		426EBF001C05C94E00E30D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		426EBF021C05C94E00E30D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		426EBF031C05C94E00E30D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		426EBF051C05C94E00E30D2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		426EBF061C05C94E00E30D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		426EBF091C05C94E00E30D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		426EBF0B1C05C94E00E30D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426EBF0E1C05C94E00E30D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,10 +55,22 @@
 		426EBF201C05C94E00E30D2D /* LiguaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426EBF241C05C94E00E30D2D /* LiguaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiguaUITests.m; sourceTree = "<group>"; };
 		426EBF261C05C94E00E30D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		426EBF331C05CA3400E30D2D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		426EBF341C05CA3400E30D2D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		426EBF361C05CC7100E30D2D /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
-		426EBF371C05CC7100E30D2D /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		426EBF3A1C09D46300E30D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		42E8CDA71C0B8B93005FD3BA /* JVFloatingDrawerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerAnimation.h; sourceTree = "<group>"; };
+		42E8CDA81C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerSpringAnimator.h; sourceTree = "<group>"; };
+		42E8CDA91C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatingDrawerSpringAnimator.m; sourceTree = "<group>"; };
+		42E8CDAA1C0B8B93005FD3BA /* JVFloatingDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerView.h; sourceTree = "<group>"; };
+		42E8CDAB1C0B8B93005FD3BA /* JVFloatingDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatingDrawerView.m; sourceTree = "<group>"; };
+		42E8CDAC1C0B8B93005FD3BA /* JVFloatingDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatingDrawerViewController.h; sourceTree = "<group>"; };
+		42E8CDAD1C0B8B93005FD3BA /* JVFloatingDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatingDrawerViewController.m; sourceTree = "<group>"; };
+		42E8CDB11C0B9176005FD3BA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		42E8CDB21C0B9176005FD3BA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		42E8CDB41C0B9301005FD3BA /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		42E8CDB51C0B9301005FD3BA /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		42E8CDBE1C0BD3CD005FD3BA /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		42E8CDC31C0BDB9F005FD3BA /* ProfileTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableCell.h; sourceTree = "<group>"; };
+		42E8CDC41C0BDB9F005FD3BA /* ProfileTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +101,6 @@
 		426EBEF31C05C94E00E30D2D = {
 			isa = PBXGroup;
 			children = (
-				426EBF321C05CA0E00E30D2D /* LiguaDomain */,
 				426EBEFE1C05C94E00E30D2D /* Ligua */,
 				426EBF181C05C94E00E30D2D /* LiguaTests */,
 				426EBF231C05C94E00E30D2D /* LiguaUITests */,
@@ -108,15 +121,18 @@
 		426EBEFE1C05C94E00E30D2D /* Ligua */ = {
 			isa = PBXGroup;
 			children = (
+				42E8CDBD1C0BD276005FD3BA /* Menu */,
 				426EBF021C05C94E00E30D2D /* AppDelegate.h */,
 				426EBF031C05C94E00E30D2D /* AppDelegate.m */,
-				426EBF051C05C94E00E30D2D /* ViewController.h */,
-				426EBF061C05C94E00E30D2D /* ViewController.m */,
 				426EBF081C05C94E00E30D2D /* Main.storyboard */,
 				426EBF0B1C05C94E00E30D2D /* Assets.xcassets */,
 				426EBF0D1C05C94E00E30D2D /* LaunchScreen.storyboard */,
 				426EBF101C05C94E00E30D2D /* Info.plist */,
 				426EBEFF1C05C94E00E30D2D /* Supporting Files */,
+				42E8CDB11C0B9176005FD3BA /* ProfileViewController.h */,
+				42E8CDB21C0B9176005FD3BA /* ProfileViewController.m */,
+				42E8CDB41C0B9301005FD3BA /* EventViewController.h */,
+				42E8CDB51C0B9301005FD3BA /* EventViewController.m */,
 			);
 			path = Ligua;
 			sourceTree = "<group>";
@@ -147,15 +163,22 @@
 			path = LiguaUITests;
 			sourceTree = "<group>";
 		};
-		426EBF321C05CA0E00E30D2D /* LiguaDomain */ = {
+		42E8CDBD1C0BD276005FD3BA /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				426EBF331C05CA3400E30D2D /* User.h */,
-				426EBF341C05CA3400E30D2D /* User.m */,
-				426EBF361C05CC7100E30D2D /* Group.h */,
-				426EBF371C05CC7100E30D2D /* Group.m */,
+				42E8CDA71C0B8B93005FD3BA /* JVFloatingDrawerAnimation.h */,
+				42E8CDA81C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.h */,
+				42E8CDA91C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m */,
+				42E8CDAA1C0B8B93005FD3BA /* JVFloatingDrawerView.h */,
+				42E8CDAB1C0B8B93005FD3BA /* JVFloatingDrawerView.m */,
+				42E8CDAC1C0B8B93005FD3BA /* JVFloatingDrawerViewController.h */,
+				42E8CDAD1C0B8B93005FD3BA /* JVFloatingDrawerViewController.m */,
+				42E8CDBE1C0BD3CD005FD3BA /* MenuViewController.h */,
+				42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */,
+				42E8CDC31C0BDB9F005FD3BA /* ProfileTableCell.h */,
+				42E8CDC41C0BDB9F005FD3BA /* ProfileTableCell.m */,
 			);
-			name = LiguaDomain;
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426EBF351C05CA3400E30D2D /* User.m in Sources */,
-				426EBF071C05C94E00E30D2D /* ViewController.m in Sources */,
-				426EBF381C05CC7100E30D2D /* Group.m in Sources */,
+				42E8CDAE1C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m in Sources */,
+				42E8CDB01C0B8B93005FD3BA /* JVFloatingDrawerViewController.m in Sources */,
 				426EBF041C05C94E00E30D2D /* AppDelegate.m in Sources */,
+				42E8CDC01C0BD3CD005FD3BA /* MenuViewController.m in Sources */,
+				42E8CDB61C0B9301005FD3BA /* EventViewController.m in Sources */,
+				42E8CDAF1C0B8B93005FD3BA /* JVFloatingDrawerView.m in Sources */,
+				42E8CDC51C0BDB9F005FD3BA /* ProfileTableCell.m in Sources */,
+				42E8CDB31C0B9176005FD3BA /* ProfileViewController.m in Sources */,
 				426EBF011C05C94E00E30D2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +359,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				426EBF091C05C94E00E30D2D /* Base */,
+				426EBF3A1C09D46300E30D2D /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -516,6 +544,7 @@
 				426EBF2B1C05C94E00E30D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426EBF2C1C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "LiguaTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +553,7 @@
 				426EBF2E1C05C94E00E30D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426EBF2F1C05C94E00E30D2D /* Build configuration list for PBXNativeTarget "LiguaUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +562,7 @@
 				426EBF311C05C94E00E30D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
