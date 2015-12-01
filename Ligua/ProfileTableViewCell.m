@@ -6,9 +6,9 @@
 //  Copyright © 2015 Francesco Zanoli. All rights reserved.
 //
 
-#import "ProfileTableCell.h"
+#import "ProfileTableViewCell.h"
 
-@implementation ProfileTableCell
+@implementation ProfileTableViewCell
 
 @synthesize usernameLabel = _usernameLabel;
 @synthesize statusLabel = _statusLabel;

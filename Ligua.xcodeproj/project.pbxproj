@@ -20,7 +20,9 @@
 		42E8CDB31C0B9176005FD3BA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDB21C0B9176005FD3BA /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 		42E8CDB61C0B9301005FD3BA /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDB51C0B9301005FD3BA /* EventViewController.m */; settings = {ASSET_TAGS = (); }; };
 		42E8CDC01C0BD3CD005FD3BA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */; settings = {ASSET_TAGS = (); }; };
-		42E8CDC51C0BDB9F005FD3BA /* ProfileTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDC41C0BDB9F005FD3BA /* ProfileTableCell.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDC51C0BDB9F005FD3BA /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDC41C0BDB9F005FD3BA /* ProfileTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDCF1C0D2070005FD3BA /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDCE1C0D2070005FD3BA /* GroupTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		42E8CDDB1C0DF225005FD3BA /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8CDDA1C0DF225005FD3BA /* EventTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +71,12 @@
 		42E8CDB51C0B9301005FD3BA /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		42E8CDBE1C0BD3CD005FD3BA /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		42E8CDC31C0BDB9F005FD3BA /* ProfileTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableCell.h; sourceTree = "<group>"; };
-		42E8CDC41C0BDB9F005FD3BA /* ProfileTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableCell.m; sourceTree = "<group>"; };
+		42E8CDC31C0BDB9F005FD3BA /* ProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
+		42E8CDC41C0BDB9F005FD3BA /* ProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
+		42E8CDCD1C0D2070005FD3BA /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
+		42E8CDCE1C0D2070005FD3BA /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
+		42E8CDD91C0DF225005FD3BA /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		42E8CDDA1C0DF225005FD3BA /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,37 @@
 		42E8CDBD1C0BD276005FD3BA /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				42E8CDD81C0D2525005FD3BA /* Swipe */,
+				42E8CDD71C0D2518005FD3BA /* Profile */,
+				42E8CDD61C0D2500005FD3BA /* Groups */,
+				42E8CDBE1C0BD3CD005FD3BA /* MenuViewController.h */,
+				42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */,
+				42E8CDDC1C0DF22A005FD3BA /* Event */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		42E8CDD61C0D2500005FD3BA /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				42E8CDCD1C0D2070005FD3BA /* GroupTableViewCell.h */,
+				42E8CDCE1C0D2070005FD3BA /* GroupTableViewCell.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		42E8CDD71C0D2518005FD3BA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				42E8CDC31C0BDB9F005FD3BA /* ProfileTableViewCell.h */,
+				42E8CDC41C0BDB9F005FD3BA /* ProfileTableViewCell.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		42E8CDD81C0D2525005FD3BA /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
 				42E8CDA71C0B8B93005FD3BA /* JVFloatingDrawerAnimation.h */,
 				42E8CDA81C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.h */,
 				42E8CDA91C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m */,
@@ -173,12 +210,17 @@
 				42E8CDAB1C0B8B93005FD3BA /* JVFloatingDrawerView.m */,
 				42E8CDAC1C0B8B93005FD3BA /* JVFloatingDrawerViewController.h */,
 				42E8CDAD1C0B8B93005FD3BA /* JVFloatingDrawerViewController.m */,
-				42E8CDBE1C0BD3CD005FD3BA /* MenuViewController.h */,
-				42E8CDBF1C0BD3CD005FD3BA /* MenuViewController.m */,
-				42E8CDC31C0BDB9F005FD3BA /* ProfileTableCell.h */,
-				42E8CDC41C0BDB9F005FD3BA /* ProfileTableCell.m */,
 			);
-			name = Menu;
+			name = Swipe;
+			sourceTree = "<group>";
+		};
+		42E8CDDC1C0DF22A005FD3BA /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				42E8CDD91C0DF225005FD3BA /* EventTableViewCell.h */,
+				42E8CDDA1C0DF225005FD3BA /* EventTableViewCell.m */,
+			);
+			name = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,11 +355,13 @@
 			files = (
 				42E8CDAE1C0B8B93005FD3BA /* JVFloatingDrawerSpringAnimator.m in Sources */,
 				42E8CDB01C0B8B93005FD3BA /* JVFloatingDrawerViewController.m in Sources */,
+				42E8CDCF1C0D2070005FD3BA /* GroupTableViewCell.m in Sources */,
 				426EBF041C05C94E00E30D2D /* AppDelegate.m in Sources */,
 				42E8CDC01C0BD3CD005FD3BA /* MenuViewController.m in Sources */,
+				42E8CDDB1C0DF225005FD3BA /* EventTableViewCell.m in Sources */,
 				42E8CDB61C0B9301005FD3BA /* EventViewController.m in Sources */,
 				42E8CDAF1C0B8B93005FD3BA /* JVFloatingDrawerView.m in Sources */,
-				42E8CDC51C0BDB9F005FD3BA /* ProfileTableCell.m in Sources */,
+				42E8CDC51C0BDB9F005FD3BA /* ProfileTableViewCell.m in Sources */,
 				42E8CDB31C0B9176005FD3BA /* ProfileViewController.m in Sources */,
 				426EBF011C05C94E00E30D2D /* main.m in Sources */,
 			);

@@ -10,5 +10,8 @@
 
 @interface MenuViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (strong,atomic) NSMutableArray *Groups;
+@property (strong,atomic) NSMutableArray *Events;
+//@property (strong,atomic) User *Groups;
 
 @end
